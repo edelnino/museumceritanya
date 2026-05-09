@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum | Artist</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="12" cy="12" r="3" fill="currentColor"/>
+            </svg>
+            <span>ArtIpsum</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="artist.html" class="active">Artist</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="book-tickets.html" class="btn-primary">Book Tickets</a>
+            <a href="login.html" class="btn-outline">Login</a>
+            <div class="lang-dropdown-container">
+                <div class="lang-selector" id="lang-btn">🇬🇧 English ▾</div>
+                <div class="lang-dropdown-menu" id="lang-menu">
+                    <a href="#">🇬🇧 English</a>
+                    <a href="#">🇮🇩 Bahasa Indonesia</a>
+                    <a href="#">🇪🇸 Español</a>
+                    <a href="#">🇫🇷 Français</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="inner-section">
+        <h1 class="section-title">Featured <span class="italic-serif">Artists</span></h1>
+        
+        <div class="card-grid">
+            <div class="card artist-card">
+                <div class="card-img"><img src="assets/images/art1.png" alt="Elias Thorne"></div>
+                <div class="card-content">
+                    <h3>Elias Thorne</h3>
+                    <p>Contemporary Sketch Artist</p>
+                </div>
+            </div>
+            <div class="card artist-card">
+                <div class="card-img"><img src="assets/images/art2.png" alt="Clara Monet"></div>
+                <div class="card-content">
+                    <h3>Clara Monet</h3>
+                    <p>Watercolor Illustrator</p>
+                </div>
+            </div>
+            <div class="card artist-card">
+                <div class="card-img"><img src="assets/images/art3.png" alt="Vincent Vance"></div>
+                <div class="card-content">
+                    <h3>Vincent Vance</h3>
+                    <p>Abstract Painter</p>
+                </div>
+            </div>
+            <div class="card artist-card">
+                <div class="card-img"><img src="assets/images/art5.png" alt="Isabella Rossi"></div>
+                <div class="card-content">
+                    <h3>Isabella Rossi</h3>
+                    <p>Oil Canvas Specialist</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
